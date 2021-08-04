@@ -1,0 +1,23 @@
+{
+  "name": "node-audio-volume-mixer",
+  "version": "1.0.0",
+  "description": "",
+  "author": "KaguraGateway",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+      "build:cpp": "node-gyp rebuild",
+      "build:ts": "tsc",
+      "prepublishOnly": "npm run build"
+  },
+  "files": [
+      "build/Release",
+      "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^16.4.11",
+    "node-addon-api": "^4.0.0",
+    "node-gyp": "^8.1.0",
+    "typescript": "^4.3.5"
+  }
+}
