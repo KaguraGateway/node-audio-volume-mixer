@@ -1,4 +1,4 @@
-const { NodeAudioVolumeMixer } = require("../dist/index");
+const { NodeAudioVolumeMixer } = require("node-audio-volume-mixer");
 
 // Is the master volume muted?
 console.log(`The master volume mute: ${NodeAudioVolumeMixer.isMasterMuted()}`);

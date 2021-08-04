@@ -12,7 +12,7 @@ To install, use npm.
 ## Examples
 ### JavaScript
 ```javascript
-const { NodeAudioVolumeMixer } = require("../dist/index");
+const { NodeAudioVolumeMixer } = require("node-audio-volume-mixer");
 
 // Is the master volume muted?
 console.log(`The master volume mute: ${NodeAudioVolumeMixer.isMasterMuted()}`);
@@ -104,3 +104,8 @@ console.log(`The volume of Google Chrome: ${NodeAudioVolumeMixer.getAudioSession
 // This volume is relative to the master volume.
 NodeAudioVolumeMixer.setAudioSessionVolumeLevelScalar(session.pid, 0.5);
 ```
+
+
+## LICENSE
+Licensed under the MIT
+Copyright (c) 2021 Kagura Gateway
