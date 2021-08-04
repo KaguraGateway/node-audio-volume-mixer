@@ -11,7 +11,7 @@ To install, use npm.
 
 ## Examples
 ### JavaScript
-```
+```javascript
 const { NodeAudioVolumeMixer } = require("../dist/index");
 
 // Is the master volume muted?
@@ -59,7 +59,7 @@ NodeAudioVolumeMixer.setAudioSessionVolumeLevelScalar(session.pid, 0.5);
 
 
 ### TypeScript
-```
+```typescript
 import { NodeAudioVolumeMixer } from "node-audio-volume-mixer";
 
 // Is the master volume muted?
