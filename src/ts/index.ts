@@ -44,4 +44,4 @@ interface NodeAudioVolumeMixer {
     setAudioSessionVolumeLevelScalar(pid: number, volumeScale: number): void;
 }
 
-export const NodeAudioVolumeMixer: NodeAudioVolumeMixer = require("../build/Release/addon");
+export const NodeAudioVolumeMixer: NodeAudioVolumeMixer = require("../build/Release/addon.node");
