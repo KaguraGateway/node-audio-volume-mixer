@@ -1,28 +1,28 @@
 {
-  "name": "node-audio-volume-mixer",
-  "version": "1.0.1",
-  "description": "node-audio-volume-mixer is a library that allows you to control volume in Node.js.",
-  "author": "KaguraGateway",
-  "license": "MIT",
-  "main": "dist/index.js",
-  "scripts": {
-      "build:cpp": "node-gyp rebuild",
-      "build:ts": "tsc"
-  },
-  "files": [
-      "build/Release",
-      "dist"
-  ],
-  "devDependencies": {
-    "@types/node": "^16.4.11",
-    "node-addon-api": "^4.0.0",
-    "node-gyp": "^8.1.0",
-    "typescript": "^4.3.5"
-  },
-  "repository": "https://github.com/KaguraGateway/node-audio-volume-mixer",
-  "bugs": {
-      "url": "https://github.com/KaguraGateway/node-audio-volume-mixer/issues",
-      "email": "kamadodenjyo@gmail.com"
-  },
-  "homepage": "https://github.com/KaguraGateway/node-audio-volume-mixer"
+    "name": "node-audio-volume-mixer",
+    "version": "1.0.2",
+    "description": "node-audio-volume-mixer is a library that allows you to control volume in Node.js.",
+    "author": "KaguraGateway",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "scripts": {
+        "build:cpp": "node-gyp rebuild",
+        "build:ts": "tsc"
+    },
+    "files": [
+        "build/Release",
+        "dist"
+    ],
+    "devDependencies": {
+        "@types/node": "^16.6.0",
+        "node-addon-api": "^4.0.0",
+        "node-gyp": "^8.1.0",
+        "typescript": "^4.3.5"
+    },
+    "repository": "https://github.com/KaguraGateway/node-audio-volume-mixer",
+    "bugs": {
+        "url": "https://github.com/KaguraGateway/node-audio-volume-mixer/issues",
+        "email": "kamadodenjyo@gmail.com"
+    },
+    "homepage": "https://github.com/KaguraGateway/node-audio-volume-mixer"
 }
